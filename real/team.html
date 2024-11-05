@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AshBorn Roster</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d5f0364af5.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body>
+  
+     <header id="navbar"> 
+            <div id = "progressbar"></div>
+            <div id = "scrollpath"></div>
+            
+            <a href="#"><img src="/images/ashb1-w.png" class="logo" id="logo"></a>
+                    <div class= "nav" id="container">
+                        <ul>
+                          <li> <a href="#home" class="hi">HOME</a><li>
+                              <li> <a href="about.html" class="hi">ABOUT</a><li> 
+                                  <li> <a href="#teams" class="hi">TEAMS</a><li> 
+                                     <li> <a href="contact.html" class="hi">CONTACT</a><li> 
+                                        <li> <a href="shop.php" class="hi">SHOP</a><li>
+                                           </ul>
+                   </div>                      
+    </header>
+
+
+        <section class="team">
+           
+                <img class="image-slide active" src="/images/valobg.jpg"></img>
+                <img class="image-slide" src="/images/lolbg.jpg"></img> 
+                <img class="image-slide" src="/images/dvabg.jpg"></img>
+                <img class="image-slide" src="/images/halo-infinite-master-chief-uhdpaper.com-8K-10.jpg"></img>
+                <img class="image-slide" src="/images/dotabg.jpg"></img>
+                <img class="image-slide" src="/images/apexbg.jpg"></img>
+         
+ 
+                    <!-- 1 -->
+  
+            <div class="content active">
+
+                <div class="slide1">       
+                <img src="/images/Valorant-Logo.png" id="valologo">
+                
+                </div>         
+                    </div>
+
+                    <div class="content" >         
+               <div class="slide1">       
+                <img src="/images/League-Logo.png" id="valologo">
+                </div>      
+                    </div>
+
+                        <div class="content" >         
+               <div class="slide1">       
+                <img src="/images/overwatch-logo-png-1621.png" id="valologo">
+                </div>      
+                    </div>
+
+                     <div class="content" >         
+               <div class="slide1">       
+                <img src="/images/halo-logo-png-34.png" id="valologo">
+                </div>      
+                    </div>
+
+
+                     <div class="content" >         
+               <div class="slide1">       
+                <img src="/images/Dota-2-Logo-1.png" id="valologo">
+                </div>      
+                    </div>
+
+                     <div class="content" >         
+               <div class="slide1">       
+                <img src="/images/apex-legends-with-shadow-logo-transparent-22.png" id="valologo">
+                </div>      
+                    </div>
+
+ <!--Slider-->         
+ <div class="slider-navigation">
+    <div class="nav-btn active"> </div>
+    <div class="nav-btn"> </div>
+    <div class="nav-btn"> </div>
+    <div class="nav-btn"> </div>
+    <div class="nav-btn"> </div>
+    <div class="nav-btn"> </div>
+    </div>
+     
+        </section>
+        
+        <script type="text/javascript">
+ 
+/* GAME TEAM SLIDER */
+/* GAME TEAM SLIDER */
+/* GAME TEAM SLIDER */
+
+const btns = document.querySelectorAll(".nav-btn");
+const slides = document.querySelectorAll(".image-slide");
+const contents = document.querySelectorAll(".content");
+
+var sliderNav = function (manual) {
+  btns.forEach((btn) => {
+    btn.classList.remove("active");
+  });
+
+  slides.forEach((slide) => {
+    slide.classList.remove("active");
+  });
+
+  contents.forEach((content) => {
+    content.classList.remove("active");
+  });
+
+  btns[manual].classList.add("active");
+  slides[manual].classList.add("active");
+  contents[manual].classList.add("active");
+};
+
+btns.forEach((btn, i) => {
+  btn.addEventListener("click", () => {
+    sliderNav(i);
+  });
+});
+
+btns.forEach((btn, i) => {
+  btn.addEventListener("mouseover", () => {
+    sliderNav(i);
+  });
+});
+
+      /* navbar */
+/* navbar */
+/* navbar */
+var lastScrollTop = 0;
+navbar = document.getElementById("navbar");
+window.addEventListener("scroll", function () {
+  var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (scrollTop > lastScrollTop) {
+    navbar.style.top = "-100px";
+  } else {
+    navbar.style.top = "0";
+  }
+  lastScrollTop = scrollTop;
+});
+   
+        </script>
+<!-- start -->
+
+
+
+<section class="home2-1">
+
+  <div class="slider1-2-1">
+     
+          <h1>OUR SQUAD</h1>
+          <br>
+          <hr id="na">
+          
+          
+      <div id="cards">
+          <div class = "card">
+            <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopnow"> COREY</h1>
+          </div>
+          <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> JIYAN</h1>
+          </div>
+          <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> MR. RADIANT</h1>
+          </div>
+          <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> DIRECC</h1>
+          </div>   
+        <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> ZUAN</h1>
+          </div>   <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> KIMCHII</h1>
+          </div>  
+          <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> ZRIXUS</h1>
+          </div>   <div class = "card">
+              <img src="/images/pic1.jpg" class="cardpic">
+              <h1 class="shopitems"> ZAKROVAN</h1>
+          </div>  
+      </div>
+  </div>
+</section>
+
+
+<div class="logos">
+      <div class="logos-slide">
+        <img src="/images/logo1.png" />
+        <img src="/images/logo2.png" />
+        <img src="/images/logo3.png" />
+        <img src="/images/logo4.png" />
+        <img src="/images/logo5.png" />
+        <img src="/images/logo6.png" />
+        <img src="/images/logo7.png" />
+      </div>
+      
+       <div class="logos-slide">
+        <img src="/images/logo1.png" />
+        <img src="/images/logo2.png" />
+        <img src="/images/logo3.png" />
+        <img src="/images/logo4.png" />
+        <img src="/images/logo5.png" />
+        <img src="/images/logo6.png" />
+        <img src="/images/logo7.png" />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+<!-- FOOTER -->
+<!-- FOOTER -->
+
+    <div class = "footer">
+      <div class="container">
+        <div class="row">
+          <div class="col" id="company">
+          <img src="/images/ashb1-w.png" class="logo" /> 
+           <img src="/images/ASHBORN WHITE.png" class="logo" />
+            <p>
+             ASB is the world's leading esports team.
+              We strive in triumph for everything we do.
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-twitch"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>TEAMS</h3>
+            <div class="links">
+              <a href="#">VALORANT</a>
+              <a href="#">LEAGUE OF LEGENDS</a>
+              <a href="#">OVERWATCH</a>
+              <a href="#">HALO</a>
+              <a href="#">DOTA 2</a>  
+              <a href="#">APEX LEGENDS</a>  
+              <a href="#">CONTENT CREATORS</a>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>NAVIGATION</h3>
+            <div class="links">
+              <a href="#">HOME</a>
+              <a href="#">HISTORY</a>
+              <a href="#">TEAMS</a>
+              <a href="#">MERCH</a>
+              <a href="#">ARTICLES</a>
+              <a href="#">CONTACT</a>
+              <a href="#">SHOP</a>
+            </div>
+          </div>
+
+          <div class="colpic">
+           <img src="/images/ashb1-w240.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- SCRIPTS -->
+<!-- SCRIPTS -->
+<!-- SCRIPTS -->
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script src="/real/index.js"></script>
+</body>
+</html>

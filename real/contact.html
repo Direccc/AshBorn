@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact AshBorn</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <div id="progressbar"></div>
+      <div id="scrollpath"></div>
+
+      <a href="#"><img src="/images/ashb1-w.png" class="logo" id="logo" /></a>
+      <div class="nav" id="container">
+        <ul>
+          <li><a href="#home" class="hi">HOME</a></li>
+          <li></li>
+          <li><a href="about.html" class="hi">ABOUT</a></li>
+          <li></li>
+          <li><a href="#teams" class="hi">TEAMS</a></li>
+          <li></li>
+          <li><a href="contact.html" class="hi">CONTACT</a></li>
+          <li></li>
+          <li><a href="shop.php" class="hi">SHOP</a></li>
+          <li></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="contact">
+      <div class="container">
+        <span class="big-circle"></span>
+        <span class="big-circle2"></span>
+        <span class="big-circle3"></span>
+
+        <div class="form">
+          <div class="contact-info">
+            <img src="/images/ashb1.png" id="contactlogo" />
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="contact.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 6 -->
+    <!-- 6 -->
+    <!-- 6 -->
+
+    <div class="logos">
+      <div class="logos-slide">
+        <img src="/images/logo1.png" />
+        <img src="/images/logo2.png" />
+        <img src="/images/logo3.png" />
+        <img src="/images/logo4.png" />
+        <img src="/images/logo5.png" />
+        <img src="/images/logo6.png" />
+        <img src="/images/logo7.png" />
+        <img src="/images/niuwei.jpg" />
+        <img src="/images/lex.png" class="lex" />
+      </div>
+
+      <div class="logos-slide">
+        <img src="/images/logo1.png" />
+        <img src="/images/logo2.png" />
+        <img src="/images/logo3.png" />
+        <img src="/images/logo4.png" />
+        <img src="/images/logo5.png" />
+        <img src="/images/logo6.png" />
+        <img src="/images/logo7.png" />
+        <img src="/images/niuwei.jpg" />
+        <img src="/images/lex.png" class="lex" />
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="footbox">
+        <div class="row">
+          <div class="col" id="company">
+            <img src="/images/ashb1-w.png" class="logo" />
+            <img src="/images/ASHBORN WHITE.png" class="logo" />
+            <p>
+              ASB is the worlds leading esports team. We strive in triumph for
+              everything we do.
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-twitch"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>TEAMS</h3>
+            <div class="links">
+              <a href="#">VALORANT</a>
+              <a href="#">LEAGUE OF LEGENDS</a>
+              <a href="#">OVERWATCH</a>
+              <a href="#">HALO</a>
+              <a href="#">DOTA 2</a>
+              <a href="#">APEX LEGENDS</a>
+              <a href="#">CONTENT CREATORS</a>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>NAVIGATION</h3>
+            <div class="links">
+              <a href="#">HOME</a>
+              <a href="#">HISTORY</a>
+              <a href="#">TEAMS</a>
+              <a href="#">MERCH</a>
+              <a href="#">ARTICLES</a>
+              <a href="#">CONTACT</a>
+              <a href="#">SHOP</a>
+            </div>
+          </div>
+
+          <div class="colpic">
+            <img src="/images/ashb1-w240.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const inputs = document.querySelectorAll(".input");
+
+      function focusFunc() {
+        let parent = this.parentNode;
+        parent.classList.add("focus");
+      }
+
+      function blurFunc() {
+        let parent = this.parentNode;
+        if (this.value == "") {
+          parent.classList.remove("focus");
+        }
+      }
+
+      inputs.forEach((input) => {
+        input.addEventListener("focus", focusFunc);
+        input.addEventListener("blur", blurFunc);
+      });
+
+      /* navbar */
+      /* navbar */
+      /* navbar */
+      var lastScrollTop = 0;
+      navbar = document.getElementById("navbar-contact");
+      window.addEventListener("scroll", function () {
+        var scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+          navbar.style.top = "-100px";
+        } else {
+          navbar.style.top = "0";
+        }
+        lastScrollTop = scrollTop;
+      });
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
