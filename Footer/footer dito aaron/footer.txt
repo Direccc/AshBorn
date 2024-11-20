@@ -1,0 +1,59 @@
+  
+<!-- FOOTER -->
+<!-- FOOTER -->
+<!-- FOOTER -->
+
+    <div class = "footer">
+      <div class="footbox">
+        <div class="row">
+          <div class="col" id="company">
+          <img src="/images/ashb1-w.png" class="logo" /> 
+           <img src="/images/ASHBORN WHITE.png" class="logo" />
+            <p>
+             ASB is the worlds leading esports team.
+              We strive in triumph for everything we do.
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-twitch"></i></a>
+              <a href="#"><i class="fab fa-discord"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>GAMES</h3>
+            <div class="links">
+              <a href="https://playvalorant.com" target="_blank">VALORANT</a>
+              <a href="https://www.leagueoflegends.com"  target="_blank">LEAGUE OF LEGENDS</a>
+              <a href="https://overwatch.blizzard.com/en-us/"  target="_blank">OVERWATCH</a>
+              <a href="https://www.halowaypoint.com"  target="_blank">HALO</a>
+              <a href="https://www.dota2.com/home" target="_blank">DOTA 2</a>  
+              <a href="https://www.ea.com/games/apex-legends" target="_blank">APEX LEGENDS</a>  
+              <a href="#">CONTENT CREATORS</a>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>NAVIGATION</h3>
+            <div class="links">
+              <a href="index.html#home">HOME</a>
+              <a href="index.html##history">HISTORY</a>
+              <a href="index.html#teams">TEAMS</a>
+              <a href="index.html#merch">MERCH</a>
+              <a href="index.html#articles">ARTICLES</a>
+              <a href="contact.html">CONTACT</a>
+              <a href="shop.php">SHOP</a>
+            </div>
+          </div>
+
+          <div class="colpic">
+           <img src="/images/ashb1-w240.png">
+          </div>
+        </div>
+      </div>
+    </div>
